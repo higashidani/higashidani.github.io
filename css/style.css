@@ -724,6 +724,7 @@ nav.hd__nv-sp.active {
     .ft__in__list a{
         display: block;
         color: #212121;
+        background-color: #fff;
         font-size: 12px;
         padding: 10px 5px 10px;
         border-top: 1px solid #e0e0e0;
