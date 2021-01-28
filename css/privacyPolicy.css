@@ -1,0 +1,120 @@
+
+.vo__in{
+    padding: 60px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 810px){
+    .vo__in{
+        width: 90%;
+        padding: 30px 0;
+    }
+}
+.container-section{
+    color: #4d4d4d;
+    font-size: 15px;
+}
+.def-list{
+    padding-top: 10px;
+}
+.ttl-h2{
+    font-weight: bold;
+    font-size: 120%;
+    line-height: 1,2;
+    text-align: center;
+    margin: 10px 0;
+}
+.ttl-h3{
+    padding: 20px 0;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    color:#4d4d4d;
+    font-weight: normal;
+    font-size: 120%;
+    margin: 0.7em 0;
+}
+.def-box p{
+    line-height: 1.8;
+    color: #666;
+}
+.def-box ul{
+    padding: 15px 0;
+}
+.def-box li{
+    line-height: 1.8;
+    color: #666;
+}
+/*--------------------------footer--------------------------------------- */
+
+.footer-wrapper{
+    width: 100%;
+    margin-top: 60px;
+    padding: 20px 0;
+    background-color: black;
+}
+@media screen and (max-width: 480px){
+    .footer-wrapper{
+        background-color: #fff;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 0;
+        margin-top: 20px;
+    }
+}
+.footer-content{
+    display: flex;
+}
+@media screen and (max-width: 480px){
+    .footer-content{
+        width: 100%;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 480px){
+    .sh{
+        display: none;
+    }
+}
+.footer-list{
+    padding: 30px 0 0 40px;
+    width: 20%;
+}
+@media screen and (max-width: 480px){
+    .footer-list{
+        width: 100%;
+        padding: 0;
+    }
+}
+.footer-list li{
+    margin: 20px 0;
+}
+@media screen and (max-width: 480px){
+    .footer-list li{
+        margin: 0;
+
+    }
+}
+.footer-list a{
+    text-decoration: none;
+    color:white;
+}
+@media screen and (max-width: 480px){
+    .footer-list a{
+        display: block;
+        color: #212121;
+        font-size: 12px;
+        padding: 10px 5px 10px;
+        border-top: 1px solid #e0e0e0;
+    }
+}
+
+
+address{
+    padding: 30px 0;
+    text-align: center;
+}
+@media screen and (max-width: 480px){
+    address{
+        padding: 20px;
+        font-size: 10px;
+    }
+}
