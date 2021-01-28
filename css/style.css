@@ -493,8 +493,22 @@ nav.hd__nv-sp.active {
 
 /*--------------------------main--------------------------------------- */
 .txt{
-    margin: 1px 0;
-    font-size: 12px;
+    /* text-decoration: none; */
+    margin: 5px 0;
+    font-size: 14px;
+}
+@media screen and (max-width: 810px){
+    .txt{
+      margin: 2px 0;
+        font-size: 13px;
+    }
+}
+.txt a{
+  color:#4f4f4f;
+  text-decoration: none;
+}
+.txt a:hover{
+  text-decoration: underline;
 }
 /* @media screen and (max-width: 480px){
     #container{
@@ -657,9 +671,8 @@ nav.hd__nv-sp.active {
 
 .ft{
     width: 100%;
-    margin-top: 60px;
-    padding: 20px 0;
-    background-color: black;
+    padding-top: 80px;
+    
 }
 @media screen and (max-width: 810px){
     .ft{
@@ -671,6 +684,7 @@ nav.hd__nv-sp.active {
 }
 .ft__in{
     display: flex;
+    background-color: black;
 }
 @media screen and (max-width: 810px){
     .ft__in{
@@ -684,7 +698,7 @@ nav.hd__nv-sp.active {
     }
 }
 .ft__in__list{
-    padding: 30px 0 0 40px;
+    padding: 30px 0 30px 40px;
     width: 20%;
 }
 @media screen and (max-width: 810px){
@@ -723,7 +737,7 @@ nav.hd__nv-sp.active {
 
 
 address{
-    padding: 30px 0;
+    padding: 10px 0;
     text-align: center;
 }
 @media screen and (max-width: 810px){
